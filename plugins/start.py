@@ -1,4 +1,4 @@
-#(©)crownbotz
+#(Â©)crownbotz
 
 
 
@@ -88,8 +88,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(" ", callback_data = ""),
-                    InlineKeyboardButton("s", callback_data = "s")
+                    InlineKeyboardButton(" ", callback_data = "about"),
+                    InlineKeyboardButton("s", callback_data = "close")
                 ]
             ]
         )
