@@ -192,17 +192,11 @@ async def send_text(client: Bot, message: Message):
         status = f"""
 
 ╭━━━━━━━━━━━━━━━➣
-
 ┣⪼👑  "<b><u>Broadcast Completed</u>
-
 ┣⪼👨‍💻Successful: <code>{successful}</code>
-
-┣⪼✏️ Blocked Users: <code>{blocked}</code>
-
+┣⪼✏️Blocked Users: <code>{blocked}</code>
 ┣⪼🌀Deleted Accounts: <code>{deleted}</code>
-
 ┣⪼📕Unsuccessful: <code>{unsuccessful}</code></b>
-
 ┣⪼📊Total Users: <code>{total}</code>
 ╰━━━━━━━━━━━━━━━➣ 
 """
