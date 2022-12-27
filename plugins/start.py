@@ -189,13 +189,23 @@ async def send_text(client: Bot, message: Message):
                 pass
             total += 1
         
-        status = f"""<b><u>s  </u>
+        status = f"""
 
- ss: <code>{total}</code>
-sss: <code>{successful}</code>
- ss: <code>{blocked}</code>
- s: <code>{deleted}</code>
-sss: <code>{unsuccessful}</code></b>"""
+╭━━━━━━━━━━━━━━━➣
+
+┣⪼👑  "<b><u>Broadcast Completed</u>
+
+┣⪼👨‍💻Successful: <code>{successful}</code>
+
+┣⪼✏️ Blocked Users: <code>{blocked}</code>
+
+┣⪼🌀Deleted Accounts: <code>{deleted}</code>
+
+┣⪼📕Unsuccessful: <code>{unsuccessful}</code></b>
+
+┣⪼📊Total Users: <code>{total}</code>
+╰━━━━━━━━━━━━━━━➣ 
+"""
         
         return await pls_wait.edit(status)
 
